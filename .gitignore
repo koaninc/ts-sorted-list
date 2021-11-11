@@ -1,0 +1,3 @@
+dist/index.test.*
+dist/tsconfig.tsbuildinfo
+node_modules
