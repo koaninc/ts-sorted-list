@@ -2,10 +2,16 @@
 
 Implements a (typesafe) sorted list
 
+## Install with `npm`
+
+```ts
+$ npm i @koaninc/ts-sorted-list
+```
+
 ## Creating a sorted list
 
 ```ts
-import * as List from 'ts-sorted-list';
+import * as List from '@koaninc/ts-sorted-list';
 
 const sorted = List.sortBy('createdAt', [
   { id: 'A1', createdAt: '2019-04-01' },
